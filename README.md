@@ -13,7 +13,7 @@ Hate  speech  is  an  unfortunately  common  occurrence  on  the  Internet.  Oft
  
 ## Data
 Our overall collection of tweets was split in the ratio of 65:35 into training and testing data. Out of the testing data, 30% is public and the rest is private.
-Source (https://datahack.analyticsvidhya.com/contest/practice-problem-twitter-sentiment-analysis)
+Source: https://datahack.analyticsvidhya.com/contest/practice-problem-twitter-sentiment-analysis
 
 ## Data Files
  
