@@ -13,10 +13,11 @@ Hate  speech  is  an  unfortunately  common  occurrence  on  the  Internet.  Oft
  
 ## Data
 Our overall collection of tweets was split in the ratio of 65:35 into training and testing data. Out of the testing data, 30% is public and the rest is private.
-Source: https://datahack.analyticsvidhya.com/contest/practice-problem-twitter-sentiment-analysis
 
 ## Data Files
- 
+
+Source: https://datahack.analyticsvidhya.com/contest/practice-problem-twitter-sentiment-analysis
+
 - train.csv - For training the models, we provide a labelled dataset of 31,962 tweets. The dataset is provided in the form of a csv file with each line storing a tweet id, its label and the tweet.
 There is 1 test file (public)
 
