@@ -32,6 +32,8 @@ I have used various techniques for Feature Extraction and then applied different
 - TF-IDF approach
 - Word2Vec Continuous Bag of Words approach
 - Word2Vec Skipgram approach
+- GloVe
+- FastText
 
 Below mentioned are the Machine Learning Algorithms used to create model:
 - Logistic Regression
@@ -47,27 +49,27 @@ Below mentioned are the Machine Learning Algorithms used to create model:
 
 ### Model Score
 
-| Algorithm | BOW  | TFIDF  | W2V_CBOW | W2V_SG | GloVe |
-| --------- | ---------- | ------------------- | ----- | ------ | ----- |
-| Logistic Regression | 0.583| 0.600 | 0.358 | 0.597 | 0.591 |
-| Naive Bayes |  0.503 | 0.555 | NA | NA | NA |
-| KNN | 0.461 | 0.493 | 0.473 | 0.562 | 0.614 |
-| SVM | 0.539 | 0.571 | 0.480 | 0.598 | 0.571 |
-| Decision Tree | 0.529  | 0.532 | 0.385| 0.479 | 0.449 |
-| Random Forest | 0.559 | 0.530 | 0.481 | 0.572 | 0.509 |
-| XGBoost | 0.520 | 0.518 | 0.542 | 0.607 |  0.595 |
-| LightGBM | NA | NA | 0.511  | 0.591 | 0.618 |
+| Algorithm | BOW  | TFIDF  | W2V_CBOW | W2V_SG | GloVe | FastText |
+| --------- | ---- | ------ | -------- | ------ | ----- | -------- |
+| Logistic Regression | 0.583| 0.600 | 0.358 | 0.597 | 0.591 | 0.626 |
+| Naive Bayes |  0.503 | 0.555 | NA | NA | NA | NA |
+| KNN | 0.461 | 0.493 | 0.473 | 0.562 | 0.614 | 0.637 |
+| SVM | 0.539 | 0.571 | 0.480 | 0.598 | 0.571 | 0.614 |
+| Decision Tree | 0.529  | 0.532 | 0.385| 0.479 | 0.449 | 0.431 |
+| Random Forest | 0.559 | 0.530 | 0.481 | 0.572 | 0.509 | 0.496 |
+| XGBoost | 0.520 | 0.518 | 0.542 | 0.607 |  0.595 | 0.591 |
+| LightGBM | NA | NA | 0.511  | 0.591 | 0.618 | 0.627 |
 
 
 ### Public Leaderboard score
 
-| Algorithm | BOW  | TFIDF  | W2V_CBOW | W2V_SG | GloVe |
-| --------- | ---- | ------ | -------- | ------ | ----- |
-| Logistic Regression | 0.542 | 0.534 | 0.340 | 0.514 | 0.531 |
-| Naive Bayes |  0.483 |  0.531 | NA | NA | NA |
-| KNN | 0.444 | 0.496  | 0.449 | 0.547 | 0.601 |
-| SVM | 0.495 | 0.517 | 0.425 | 0.526 | 0.512 |
-| Decision Tree | 0.482 | 0.491 | 0.436 | 0.498 | 0.378 |
-| Random Forest |  0.504 | 0.478 | 0.483 | 0.564 | 0.459 |
-| XGBoost |  0.527 | 0.515 | 0.497| 0.620 | 0.556 |
-| LightGBM | NA | NA |  0.501  | 0.578 | 0.565 |
+| Algorithm | BOW  | TFIDF  | W2V_CBOW | W2V_SG | GloVe | FastText |
+| --------- | ---- | ------ | -------- | ------ | ----- | -------- |
+| Logistic Regression | 0.542 | 0.534 | 0.340 | 0.514 | 0.531 | 0.557 |
+| Naive Bayes |  0.483 |  0.531 | NA | NA | NA | NA |
+| KNN | 0.444 | 0.496  | 0.449 | 0.547 | 0.601 | 0.611 |
+| SVM | 0.495 | 0.517 | 0.425 | 0.526 | 0.512 | 0.536 |
+| Decision Tree | 0.482 | 0.491 | 0.436 | 0.498 | 0.378 | 0.457 |
+| Random Forest |  0.504 | 0.478 | 0.483 | 0.564 | 0.459 | 0.502 |
+| XGBoost |  0.527 | 0.515 | 0.497| 0.620 | 0.556 | 0.557 |
+| LightGBM | NA | NA |  0.501  | 0.578 | 0.565 | 0.594 |
