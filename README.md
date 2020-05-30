@@ -27,7 +27,7 @@ There is 1 test file (public)
 The metric used for evaluating the performance of classification model would be F1-Score.
 
 # Solution Details:
-I have used various techniques for Feature Extraction and then applied different Machine Learning Algorithms to categorise the tweets between racist & non-racist. Below are the Feature Extraction techniques used:
+I have used various techniques for Feature Extraction and then applied different Machine Learning Algorithms to categorise the tweets between racist & non-racist. Below are the Feature Extraction techniques used:-
 - Bag of Words approach
 - TF-IDF approach
 - Word2Vec Continuous Bag of Words approach
